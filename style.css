@@ -62,7 +62,7 @@ body .section .article .box-txt {
   max-width: 300px;
   margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   font-size: 1em;
 }
 body .footer {
@@ -92,8 +92,11 @@ body .footer {
   }
   body .section .center .article {
     float: left;
-    padding: 0 10px 45px 10px;
+    padding: 0 10px 40px 10px;
     margin: 0;
+  }
+  body .section .center .article .box-txt {
+    padding-bottom: 0px;
   }
   body .section .clear {
     clear: both;
