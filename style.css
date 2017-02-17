@@ -1,0 +1,115 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+body .head {
+  color: #333333;
+  margin: 10px 10px 0 10px;
+  font-size: 1.8em;
+  text-align: center;
+}
+body .head .logo {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #4a90e2;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+body .head .title {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  font-weight: 700;
+  padding-top: 25px;
+}
+body .head .subtitle {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 0.55em;
+}
+body .section {
+  padding: 10px 10px 0 10px;
+  margin-top: 20px;
+  background-color: #d8d8d8;
+}
+body .section .article .img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  min-height: 145px;
+  height: auto;
+  background-color: #888888;
+}
+body .section .article .box-title {
+  padding-top: 20px;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+}
+body .section .article .box-txt {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 1em;
+}
+body .footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+@media (min-width: 768px) {
+  body .head .logo {
+    margin-top: 80px;
+  }
+  body .head .title {
+    padding-top: 40px;
+    max-width: 545px;
+  }
+  body .head .subtitle {
+    max-width: 545px;
+  }
+  body .section {
+    padding: 40px 64px 0 64px;
+    margin-top: 40px;
+  }
+  body .section .center {
+    margin: 0 auto;
+    width: 640px;
+  }
+  body .section .center .article {
+    float: left;
+    padding: 0 10px 45px 10px;
+    margin: 0;
+  }
+  body .section .clear {
+    clear: both;
+  }
+}
+@media (min-width: 1024px) {
+  body .head .title {
+    max-width: 750px;
+  }
+  body .head .subtitle {
+    max-width: 750px;
+  }
+  body .section {
+    padding: 40px 32px 0 32px;
+  }
+  body .section .center {
+    width: 960px;
+  }
+}
